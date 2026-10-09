@@ -151,7 +151,7 @@ export default function Home() {
           </span>
         </div>
 
-        <div style={{ display: "flex", alignItems: "center", gap: "36px", display: "none", "@media(min-width: 768px)": { display: "flex" } } as React.CSSProperties}>
+        <div style={{ display: "flex", alignItems: "center", gap: "36px" } as React.CSSProperties}>
           {["Capabilities", "Architecture", "Safety"].map((l) => (
             <a key={l} href={`#${l.toLowerCase()}`}
               style={{
